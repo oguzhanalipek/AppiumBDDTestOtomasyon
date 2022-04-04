@@ -1,0 +1,27 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Özdilekteyim uygulaması açılır
+* "2" saniye kadar bekle
+
+# Uygulamanın açıldığı kontrol edilir
+* "com.ozdilek.ozdilekteyim:id/textView" id'li elementi bul ve "Mağazadan Alışveriş" yazan alanı kontrol et
+* "2" saniye kadar bekle
+
+# Alışverişe başla butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Giriş yapma sayfasının açıldığı doğrulanır
+* "com.ozdilek.ozdilekteyim:id/btnLogin" id'li elementi bul ve "Giriş Yap" yazan alanı kontrol et
+* "2" saniye kadar bekle
+
+# Kullanıcı adı alanına ''oguzhan.alipek@testinium.com'' bilgisi girilir
+* "com.ozdilek.ozdilekteyim:id/etEposta" id'si verilen elementi bul ve "oguzhan.alipek@testinium.com" değerini yaz
+* "2" saniye kadar bekle
+
+# Password alanına '1q2w3e4r5t' yazılır
+* "com.ozdilek.ozdilekteyim:id/etPassword" id'si verilen elementi bul ve "1q2w3e4r5t" değerini yaz
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/btnLogin" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "2" saniye kadar bekle

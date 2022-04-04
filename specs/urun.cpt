@@ -1,0 +1,29 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+
+# Sayfayı aşağıya doğru iki kere scroll et
+* Sayfayı aşağı doğru kaydır
+* "1" saniye kadar bekle
+* Sayfayı aşağı doğru kaydır
+* "1" saniye kadar bekle
+
+# Ürünlerden rastgele bir ürün seç
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" xpathi verilen elementlerden birine rastgele tikla
+* "2" saniye kadar bekle
+
+# Ürün detay sayfası açıldığı kontrol edilir
+* "//android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.TextView" xpath'li elementi bul ve "SEPETE EKLE" yazan alanı kontrol et
+* "2" saniye kadar bekle
+
+# Favoriler butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/imgAddFav" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+
+# Ürün detay ekranında geçerli bir bedeni rastgele seç
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tvInSizeItem']" xpathi verilen elementlerden birine rastgele tikla
+* "2" saniye kadar bekle
+
+# Seçilen ürün sepete eklenir
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "2" saniye kadar bekle

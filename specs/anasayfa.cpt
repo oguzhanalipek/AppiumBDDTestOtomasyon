@@ -1,0 +1,10 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Alışveriş sayfasının açıldıgı doğrulanır
+* "com.ozdilek.ozdilekteyim:id/iv" id'li elementi bul ve "" yazan alanı kontrol et
+* "2" saniye kadar bekle
+
+# Kategoriler Sayfası Açılır
+* "com.ozdilek.ozdilekteyim:id/nav_categories" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "2" saniye kadar bekle

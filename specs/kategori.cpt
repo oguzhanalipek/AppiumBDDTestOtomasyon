@@ -1,0 +1,21 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+
+# Katogoriler Sayfasının açıldıgı dogrulanır
+*  "//*[@class='android.widget.LinearLayout']/android.widget.TextView[@text='Kategoriler']" xpath'li elementi bul ve "Kategoriler" yazan alanı kontrol et
+* "2" saniye kadar bekle
+
+# Menüden Kadın Seçeneğine tıklanır
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem']/android.widget.TextView[@text='Kadın']" XPath'li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Menüden Pantolon kategorisi açılır
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem']/android.widget.TextView[@text='Pantolon']" XPath'li elementi bul ve tıkla
+* "2" saniye kadar bekle
+
+# Geri butonuna 2 kere tıklanır
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "1" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" id'li elementin sayfada gorunur oldugunu kontrol et ve tıkla
+* "1" saniye kadar bekle
