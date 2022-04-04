@@ -35,11 +35,10 @@ public class BasePage extends BaseTest {
     @Step("<xpath> XPath'li elementi bul ve tıkla")
     public void findByXpathAndClick(String xpath) {
         element = appiumDriver.findElement(By.xpath(xpath));
-        if(element.isDisplayed()){
+        if (element.isDisplayed()) {
             element.click();
             Logger.info("Elemente tiklandi");
-        }else
-        {
+        } else {
             Logger.info("Kontrol edilen element bulunamadi -->");
         }
     }
@@ -78,13 +77,6 @@ public class BasePage extends BaseTest {
             System.err.println("swipeScreen(): TouchAction FAILED\n" + e.getMessage());
             return;
         }
-
-        /*// always allow swipe action to complete
-        try {
-            Thread.sleep(ANIMATION_TIME);
-        } catch (InterruptedException e) {
-            // ignore
-        }*/
     }
 
     @Step("<xpath> xpathi verilen elementlerden birine rastgele tikla")
